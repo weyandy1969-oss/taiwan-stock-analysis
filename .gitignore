@@ -1,0 +1,29 @@
+# Secrets & API Keys (絕對不要上傳)
+.streamlit/secrets.toml
+*.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Data / Output
+*.csv
+*.xlsx
+reports/
